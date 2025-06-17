@@ -20,6 +20,10 @@ const App = () => {
   );
 }
 
+const Square = () => {
+  return <button className="square">1</button>;
+}
+
 ReactDOM.render(
   <App />,
   document.getElementById('root')
